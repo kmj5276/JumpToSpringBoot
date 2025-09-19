@@ -1,6 +1,6 @@
 spring:
   application:
-    name: demo
+    name: sbb
 
   h2:
     console:
@@ -21,3 +21,6 @@ spring:
         show_sql: true
     hibernate:
       ddl-auto: update
+
+  thymeleaf:
+    cache: false
